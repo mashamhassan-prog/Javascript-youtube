@@ -48,3 +48,8 @@ console.log(typeof "Masham")
 // the output will show the type of Masham is *string* because Masham is written in the string double cots ""
 console.log(typeof age)
 // the output will show the type of age is *number* because age is written in the number
+
+// now the real thing
+// also an interview question
+console.log(typeof null)
+// the output will show the type of null is *object*
