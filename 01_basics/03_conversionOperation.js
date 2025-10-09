@@ -82,8 +82,36 @@ let someNumber = 33
 // it will return "33"
 
 let stringNumber = String(someNumber);
-console.log(stringNumber);
+// console.log(stringNumber);
 
-console.log(typeof stringNumber);
+// console.log(typeof stringNumber);
 // here we wanted to know that it's a string or not!
 
+
+
+
+
+
+// ************************************ Operations *******************************************
+// What is Operations?
+// (2 + 2 = 4) this is called an operation.
+// (if a number is 2 and we convert 2 into -2) this is called an operation.
+// (if there's two strings and we merge them both) this is called an opeartion.
+
+// Now we discuss about some important Operations!
+
+let value = 3 
+let negValue = -value
+// here we assign that we want the negative value (-value)
+// console.log(negValue);
+// then it will return -3 negative value
+
+
+// Basic Opeartions
+
+// console.log(2+2) addition
+// console.log(2-2) subtraction
+// console.log(2*2) multipliation
+// console.log(2**2) if we use two * then it goes for the power like 2 rays to power 2
+// console.log(2/2) division
+// console.log(2%2) for finding the remainder!
