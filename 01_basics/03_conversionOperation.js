@@ -115,3 +115,90 @@ let negValue = -value
 // console.log(2**2) if we use two * then it goes for the power like 2 rays to power 2
 // console.log(2/2) division
 // console.log(2%2) for finding the remainder!
+
+
+
+// we discuss about the tricky things
+let str1 = "hello"
+let str2 = " masham" //we give space here coz when we execute the output it will return side by side(with space)!
+// if we want to compare these two (like addition) so then we can write this command:
+let str3 = str1 + str2 //here it is only add no subtraction will be used here!
+// console.log(str3);
+// this is the basic in which we know that how we join the strings together!
+
+// here we talk about the complex situation 
+// PROBLEM
+// console.log("1" + 2);
+//here we want to add the value 2 in "1"!
+// console.log(1 + "2");
+//here we want to add the value 1 in "2"!
+// it returns the value of "12" for both!!
+
+// if
+// console.log("1" + 2 + 2);
+//it returns 122!!
+
+// now we apply the reverse command 
+// console.log(1 + 2 + "2");
+//it returns 32!! (command adds the fisrt two numbers 1+2 =3 and it return 2 as the string with 3)
+
+// differnce if there's the string value first then the other values will execute by the string value repectively(no function will apply)
+// and if
+// there's the other values first then it executes first (their given function) and then the string value will appear with the output!!
+
+
+// NOW we can execute some special types of conerversions which are called "TRICKY Conversions"
+// console.log(true);
+//it returns "true"
+// console.log(+true);
+// if we write code like this(which is not good but it is tricky)
+// and it returns "1"
+
+// if
+// console.log(true+);
+// it gives the error!
+
+// if
+// console.log(+"");
+// it returns "0"
+// it doesn't makes sense and should not preferred to use this!
+
+// now here we talk about the assignment operator!
+// let num1, num2, num3
+
+// num1 = num2 = num3 = 2 + 2
+
+// let gameCounter = 100
+// gameCounter++;
+// console.log(gameCounter);
+// it returns 101
+
+
+// sometimes we write like
+// let num1, num2, num3
+
+// num1 = num2 = num3 = 2 + 2
+
+// let gameCounter = 100
+// ++gameCounter;
+// here it also returns 101
+// console.log(gameCounter);
+
+// for these prefix and postfix operators we have to read it on mdn!
+// link: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Increment
+
+
+
+// Here we solve some examples of postfix and prefix increments
+// 1 Postfix increment:
+// let x = 3;
+// const y = x++;
+// console.log (x , y );
+// it returns x is "4" and y is "3"
+
+
+// 2 Prefix increment
+let x =4
+const y = ++x
+console.log ( x , y );
+// it returns x is "5" and y is also "5"
