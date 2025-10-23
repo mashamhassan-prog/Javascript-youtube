@@ -1,15 +1,3 @@
 {
   "image": "mcr.microsoft.com/devcontainers/javascript-node:1-22-bullseye"
 }
-
-// Configure tool-specific properties.
-	"customizations": {
-		"vscode": {
-			"extensions": [
-				"esbenp.prettier-vscode",
-				"vscode-icons-team.vscode-icons",
-				"wayou.vscode-todo-highlight"
-			],
-			"settings": {
-				"editor.wordWrap": "on"
-			}
